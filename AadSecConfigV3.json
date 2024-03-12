@@ -10,7 +10,7 @@
                 "ControlName": "Default Authorization Settings",
                 "Description": "Manages authorization settings in Azure AD",
                 "GraphEndpoint": "authorizationPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authorizationPolicy",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authorizationPolicy",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/authorizationpolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -27,7 +27,7 @@
                         "MitreTactic": ["TA0003 - Persistence"],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/PasswordResetMenuBlade/~/Properties",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/PasswordResetMenuBlade/~/Properties",
                         "Description": "Designates whether users in this directory can reset their own password."
                     },
                     {
@@ -69,7 +69,7 @@
                         "MitreTactic": ["TA0003 - Persistence"],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings",
                         "Description": "Manages controls who can invite guests to your directory to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources."
                     },
                     {
@@ -111,7 +111,7 @@
                         "MitreTactic": ["TA0043 - Reconnaissance"],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AllowlistPolicyBlade",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AllowlistPolicyBlade",
                         "Description": "Represents role templateId for the role that should be granted to guest user."
                     },
                     {
@@ -125,7 +125,7 @@
                         "MitreTactic": ["TA0001 - Initial Access","TA0005 - Defense Evasion","TA0006 - Credential Access","TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1566.002","T1078","T1550","T1528"],
                         "MitreMitigation": ["M1017"," M1018"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings",
                         "Description": "Defines if user consent to apps is allowed, and if it is, which app consent policy (permissionGrantPolicy) governs the permissions."
                     },
                     {
@@ -153,7 +153,7 @@
                         "MitreTactic": ["TA0001 - Initial Access","TA0005 - Defense Evasion","TA0006 - Credential Access","TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1566.002","T1078","T1550","T1528"],
                         "MitreMitigation": ["M1017"," M1018"," M1024"," M1047"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/UserSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/UserSettings",
                         "Description": "Controls if non-admin users may register custom-developed applications for use within this directory."
                     },
                     {
@@ -167,7 +167,7 @@
                         "MitreTactic": ["TA0003 - Persistence"],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/General",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/General",
                         "Description": "Defines default permission of user to create security groups in Azure portals, API or PowerShell. Global administrators and user administrators can still create security groups."
                     },
                     {
@@ -181,7 +181,7 @@
                         "MitreTactic": ["TA0010 - Exfiltration","TA0040 - Impact"],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/UserSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/UserSettings",
                         "Description": "Restricts the creation of Azure AD tenants to the global administrator or tenant creator roles. Anyone who creates a tenant will become the global administrator for that tenant."
                     },
                     {
@@ -218,7 +218,7 @@
                 "ControlName": "Default Settings - Consent Policy Settings",
                 "Description": "Define the consent configurations that can be used to customize the tenant-wide and object-specific restrictions and allowed behavior",
                 "GraphEndpoint": "settings",
-                "GraphUri": "https://graph.microsoft.com/beta/settings",
+                "GraphUri": "https://graph.microsoft.us/beta/settings",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/directorysetting",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -235,7 +235,7 @@
                         "MitreTactic": ["TA0001 - Initial Access"],
                         "MitreTechnique": ["T1566.002","T1078"],
                         "MitreMitigation": ["M1017"," M1018"," M1047"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings",
                         "Description": "Group and team owners can authorize applications, such as applications published by third-party vendors, to access your organization's data associated with a group. For example, a team owner in Microsoft Teams can allow an app to read all Teams messages in the team, or list the basic profile of a group's members."
                     },
                     {
@@ -249,7 +249,7 @@
                         "MitreTactic": ["TA0001 - Initial Access"],
                         "MitreTechnique": ["T1566.002","T1078"],
                         "MitreMitigation": ["M1017"," M1018"," M1047"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings",
                         "Description": "Only selected group owners can allow applications to access data for the groups they own."
                     },
                     {
@@ -277,7 +277,7 @@
                         "MitreTactic": ["TA0001 - Initial Access"],
                         "MitreTechnique": ["T1566.002","T1078"],
                         "MitreMitigation": ["M1017"," M1018"," M1047"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
                         "Description": "If this option is set to enabled, then users request admin consent to any app that requires access to data they do not have the permission to grant. If this option is set to disabled, then users must contact their admin to request to consent in order to use the apps they need."
                     }
                 ]
@@ -303,7 +303,7 @@
                         "MitreTactic": ["TA0006 - Credential Access"],
                         "MitreTechnique": ["T1110"],
                         "MitreMitigation": [" M1018", "M1027"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
                         "Description": "If set to Enforce, users will be prevented from setting banned passwords and the attempt will be logged. If set to Audit, the attempt will only be logged."
                     },
                     {
@@ -317,7 +317,7 @@
                         "MitreTactic": ["TA0006 - Credential Access"],
                         "MitreTechnique": ["T1110"],
                         "MitreMitigation": [" M1018", "M1027"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
                         "Description": "If set to Yes, password protection is turned on for Active Directory domain controllers when the appropriate agent is installed."
                     },
                     {
@@ -331,7 +331,7 @@
                         "MitreTactic": ["TA0006 - Credential Access"],
                         "MitreTechnique": ["T1110"],
                         "MitreMitigation": [" M1018", "M1027"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
                         "Description": "When enabled, the words in the list below are used in the banned password system to prevent easy-to-guess passwords."
                     },
                     {
@@ -345,7 +345,7 @@
                         "MitreTactic": ["TA0006 - Credential Access"],
                         "MitreTechnique": ["T1110"],
                         "MitreMitigation": [" M1018", "M1027"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
                         "Description": "A list of words, one per line, to prevent your users from using in their passwords. You should include words specific to your organization, such as your products, trademarks, industries, local cities and towns, and local sports teams. Your list can contain up to 1000 words. These are case insensitive, and common character substitutions (o for 0, etc) are automatically considered."
                     },
                     {
@@ -359,7 +359,7 @@
                         "MitreTactic": ["TA0006 - Credential Access"],
                         "MitreTechnique": ["T1110"],
                         "MitreMitigation": [" M1018", "M1027"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
                         "Description": "The minimum length in seconds of each lockout. If an account locks repeatedly, this duration increases."
                     },
                     {
@@ -373,7 +373,7 @@
                         "MitreTactic": ["TA0006 - Credential Access"],
                         "MitreTechnique": ["T1110"],
                         "MitreMitigation": [" M1018", "M1027"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection",
                         "Description": "How many failed sign-ins are allowed on an account before its first lockout. If the first sign-in after a lockout also fails, the account locks out again."
                     }
                 ]
@@ -427,7 +427,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/NamingPolicy",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/NamingPolicy",
                         "Description": "Comma-separated string of phrases that users will not be permitted to use in group names or aliases."
                     },
                     {
@@ -483,7 +483,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/NamingPolicy",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/NamingPolicy",
                         "Description": "String of a maximum length of 64 characters that defines the naming convention configured for Microsoft 365 groups."
                     },
                     {
@@ -539,7 +539,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/General",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/General",
                         "Description": "The flag indicating whether Microsoft 365 group creation is allowed in the directory by non-admin users. This setting does not require an Azure Active Directory Premium P1 license."
                     },
                     {
@@ -590,7 +590,7 @@
                 "ControlName": "Default Activity Timeout",
                 "Description": "Control the idle timeout for web sessions for applications that support activity-based timeout functionality",
                 "GraphEndpoint": "activityBasedTimeoutPolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/activityBasedTimeoutPolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/activitybasedtimeoutpolicy",        
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -607,7 +607,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#settings",
+                        "PortalDeepLink": "https://portal.azure.us/#settings",
                         "Description": "Inactivity timeout is being enforced by this setting. You will be signed out after the configured time of inactivity."
                     }
                 ]
@@ -616,7 +616,7 @@
                 "ControlName": "External Identities",
                 "Description": "Controls whether external users can leave an Azure AD tenant via self-service controls",
                 "GraphEndpoint": "externalIdentitiesPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/externalIdentitiesPolicy",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/externalIdentitiesPolicy",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/externalidentitiespolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -633,7 +633,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings",
                         "Description": "Allow external users to remove themselves from your organization"
                     },
                     {
@@ -656,7 +656,7 @@
                 "ControlName": "Feature Rollout (Enabled Previews)",
                 "Description": "Defines a rollout and pilot feature before enabling for entire organization",
                 "GraphEndpoint": "featureRolloutPolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/featureRolloutPolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/featurerolloutpolicy",        
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -682,7 +682,7 @@
                 "ControlName": "Authentication Method - General Settings",
                 "Description": "The tenant-wide policy that controls which authentication methods are allowed in the tenant, authentication method registration requirements, and self-service password reset settings.",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/authenticationmethodspolicy-get",        
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -699,7 +699,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
                         "Description": "The state of migration of the authentication methods policy from the legacy multifactor authentication and self-service password reset (SSPR) policies. In January 2024, the legacy multifactor authentication and self-service password reset policies will be deprecated and you'll manage all authentication methods here in the authentication methods policy. Use this control to manage your migration from the legacy policies to the new unified policy."
                     },
                     {
@@ -713,7 +713,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
                         "Description": "Allows users to report suspicious activities if they receive an authentication request that they did not initiate. This control is available when using the Microsoft Authenticator app and voice calls. Reporting suspicious activity will set the user's risk to high. If the user is subject to risk-based Conditional Access policies, they may be blocked."
                     },
                     {
@@ -727,7 +727,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
                         "Description": "Object Id or scope of users which will be included to report suspicious activities if they receive an authentication request that they did not initiate."
                     },
                     {
@@ -741,7 +741,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods",
                         "Description": "Reporting code must be 0 - 9."
                     },
                     {
@@ -797,7 +797,7 @@
                         "MitreTactic": [],
                         "MitreTechnique": [],
                         "MitreMitigation": [],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/RegistrationCampaign",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/RegistrationCampaign",
                         "Description": "Configuration of a registration campaign that prompts users to set up more secure authentication methods."
                     },
                     {
@@ -862,7 +862,7 @@
                 "ControlName": "Authentication Method - Microsoft Authenticator",
                 "Description": "Define configuration settings and users or groups that are enabled to use Authenticator App",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('MicrosoftAuthenticator')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('MicrosoftAuthenticator')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/microsoftauthenticatorauthenticationmethodconfiguration",        
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1056,7 +1056,7 @@
                 "ControlName": "Authentication Method - FIDO2 security key",
                 "Description": "Define configuration settings and users or groups that are enabled to use FIDO2 security keys",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Fido2')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Fido2')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/fido2authenticationmethodconfiguration",     
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1180,7 +1180,7 @@
                 "ControlName": "Authentication Method - Temporary Access Pass",
                 "Description": "Define configuration settings and users or groups that are enabled to use Temporary Access Pass",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('TemporaryAccessPass')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('TemporaryAccessPass')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/temporaryaccesspassauthenticationmethodconfiguration", 
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1304,7 +1304,7 @@
                 "ControlName": "Authentication Method - Third-party software OATH tokens",
                 "Description": "Define configuration settings and users or groups that are enabled to use software OATH token",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('SoftwareOath')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('SoftwareOath')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/softwareoathauthenticationmethod",
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1358,7 +1358,7 @@
                 "ControlName": "Authentication Method - Email OTP",
                 "Description": "Define configuration settings and users or groups that are enabled to use email address registered to a user. For members of a tenant, email OTP is usable only for Self-Service Password Recovery. It may also be configured to be used for sign-in by guest users.",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Email')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Email')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/emailauthenticationmethod",     
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1426,7 +1426,7 @@
                 "ControlName": "Authentication Method - Voice call",
                 "Description": "Define configuration settings and users or groups that are enabled to use voice call for authentication. Voice call is not usable as a first-factor authentication method.",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Voice')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Voice')",
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
                 "MitreMitigation": [],
@@ -1493,7 +1493,7 @@
                 "ControlName": "Authentication Method - SMS",
                 "Description": "Define configuration settings and users or groups that are enabled to use text messages for authentication.",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Sms')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Sms')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/phoneauthenticationmethod",
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1547,7 +1547,7 @@
                 "ControlName": "Authentication Method - Certificate-based authentication",
                 "Description": "Define configuration settings and users or groups that are enabled to use certificate-based authentication.",
                 "GraphEndpoint": "authenticationMethodsPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('X509Certificate')",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations('X509Certificate')",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/certificatebasedauthconfiguration", 
                 "MitreTactic": ["TA0006 - Credential Access"],
                 "MitreTechnique": [],
@@ -1629,7 +1629,7 @@
                 "ControlName": "Authentication Strength (Coming soon)",
                 "Description": "Define specific combinations of authentication methods and metadata. The authentication strength policy, when applied to a given scenario using Azure AD Conditional Access, defines which authentication methods must be used to authenticate in that scenarios.",
                 "GraphEndpoint": "authenticationStrengthPolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/authenticationStrengthPolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/authenticationstrengthpolicy",     
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1655,7 +1655,7 @@
                 "ControlName": "Application Management - Default Policy (Coming soon)",
                 "Description": "Tenant-wide application authentication method policy to enforce app management restrictions for all applications and service principals.",
                 "GraphEndpoint": "defaultAppManagementPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/defaultAppManagementPolicy",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/defaultAppManagementPolicy",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/tenantappmanagementpolicy",     
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1707,7 +1707,7 @@
                 "ControlName": "Consent Framework - Admin Consent Request (Coming soon)",
                 "Description": "Represents the policy for enabling or disabling the Azure AD admin consent workflow. The admin consent workflow allows users to request access for apps that they wish to use and that require admin authorization before users can use the apps to access organizational data. ",
                 "GraphEndpoint": "servicePrincipalCreationPolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/adminConsentRequestPolicy",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/adminConsentRequestPolicy",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/adminconsentrequestpolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1724,7 +1724,7 @@
                         "MitreTactic": ["TA0001 - Initial Access", "TA0005 - Defense Evasion", "TA0006 - Credential Access", "TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1078", "T1528", "T1550", "T1550.001", "T1566.002"],
                         "MitreMitigation": [" M1018","M1017"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
                         "Description": "Defines if admin consent request feature is enabled or disabled"
                     },
                     {
@@ -1738,7 +1738,7 @@
                         "MitreTactic": ["TA0001 - Initial Access", "TA0005 - Defense Evasion", "TA0006 - Credential Access", "TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1078","T1528", "T1550", "T1550.001", "T1566.002"],
                         "MitreMitigation": [" M1018","M1017"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
                         "Description": "Specifies whether reviewers will receive notifications"
                     },
                     {
@@ -1752,7 +1752,7 @@
                         "MitreTactic": ["TA0001 - Initial Access", "TA0005 - Defense Evasion", "TA0006 - Credential Access", "TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1078", "T1528", "T1550", "T1550.001", "T1566.002"],
                         "MitreMitigation": [" M1018","M1017"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
                         "Description": "Specifies whether reviewers will receive reminder emails"
                     },
                     {
@@ -1766,7 +1766,7 @@
                         "MitreTactic": ["TA0001 - Initial Access", "TA0005 - Defense Evasion", "TA0006 - Credential Access", "TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1078", "T1528", "T1550", "T1550.001", "T1566.002"],
                         "MitreMitigation": [" M1018","M1017"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
                         "Description": "Specifies the duration the request is active before it automatically expires if no decision is applied"
                     },
                     {
@@ -1780,7 +1780,7 @@
                         "MitreTactic": ["TA0001 - Initial Access", "TA0005 - Defense Evasion", "TA0006 - Credential Access", "TA0008 - Lateral Movement"],
                         "MitreTechnique": ["T1078", "T1528", "T1550", "T1550.001", "T1566.002"],
                         "MitreMitigation": [" M1018","M1017"],
-                        "PortalDeepLink": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
+                        "PortalDeepLink": "https://portal.azure.us/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/AdminConsentSettings",
                         "Description": "The list of reviewers for the admin consent"
                     },
                     {
@@ -1803,7 +1803,7 @@
                 "ControlName": "Consent Framework - Permission Grant (Coming soon)",
                 "Description": "Describes the conditions under which permissions can be granted (for example, during application consent)",
                 "GraphEndpoint": "permissionGrantPolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/permissionGrantPolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/permissiongrantpolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1829,7 +1829,7 @@
                 "ControlName": "Cross Tenant Access Policy (Coming soon)",
                 "Description": "Represents the base policy in the directory for cross-tenant access settings",
                 "GraphEndpoint": "crossTenantAccessPolicy",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/crossTenantAccessPolicy",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/crosstenantaccesspolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1855,7 +1855,7 @@
                 "ControlName": "Token Configuration - tokenIssuancePolicies (Coming soon)",
                 "Description": "Represents the policy to specify the characteristics of SAML tokens issued by Azure AD",
                 "GraphEndpoint": "tokenIssuancePolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/tokenIssuancePolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/tokenissuancepolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1881,7 +1881,7 @@
                 "ControlName": "Token Configuration - Token Lifetime (Coming soon)",
                 "Description": "Represents a policy that can control the lifetime of a JWT access token, an ID token or a SAML 1.1/2.0 token issued by Azure Active Directory (Azure AD)",
                 "GraphEndpoint": "tokenLifetimePolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/tokenLifetimePolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/tokenlifetimepolicy",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -1907,7 +1907,7 @@
                 "ControlName": "Azure AD Recommendations",
                 "Description": "Azure Active Directory (Azure AD) recommendations are personalized and actionable insights for you to implement Azure AD best practices in your tenant. The Azure AD recommendation service runs daily to check your tenant against predefined conditions for every recommendation. If the service detects that a recommendation applies to your tenant, the corresponding recommendation object is generated and its status is set to active.",
                 "GraphEndpoint": "recommendations",
-                "GraphUri": "https://graph.microsoft.com/beta/directory/recommendations",
+                "GraphUri": "https://graph.microsoft.us/beta/directory/recommendations",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/recommendation-list-impactedresources",
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -2012,7 +2012,7 @@
                 "ControlName": "Conditional Access Policies",
                 "Description": "Conditional Access Policies.",
                 "GraphEndpoint": "conditionalAccessPolicies",
-                "GraphUri": "https://graph.microsoft.com/beta/policies/conditionalAccessPolicies",
+                "GraphUri": "https://graph.microsoft.us/beta/policies/conditionalAccessPolicies",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/resources/conditionalaccesspolicy",     
                 "MitreTactic": [],
                 "MitreTechnique": [],
@@ -2047,7 +2047,7 @@
                 "ControlName": "Service Principals",
                 "Description": "Existing service principals in the tenant",
                 "GraphEndpoint": "serviceprincipals",
-                "GraphUri": "https://graph.microsoft.com/beta/serviceprincipals?$select=id,appid,displayName,appOwnerOrganizationId,servicePrincipalType,signInAudience,AssignmentRequired,disabledByMicrosoftStatus,publisherName,accountEnabled,createdDateTime,keyCredentials,passwordCredentials,federatedIdentityCredentials&expand=appRoleAssignments",
+                "GraphUri": "https://graph.microsoft.us/beta/serviceprincipals?$select=id,appid,displayName,appOwnerOrganizationId,servicePrincipalType,signInAudience,AssignmentRequired,disabledByMicrosoftStatus,publisherName,accountEnabled,createdDateTime,keyCredentials,passwordCredentials,federatedIdentityCredentials&expand=appRoleAssignments",
                 "GraphDocsUrl": "https://learn.microsoft.com/en-us/graph/api/serviceprincipal-list?view=graph-rest-1.0&tabs=http",     
                 "MitreTactic": [],
                 "MitreTechnique": [],
